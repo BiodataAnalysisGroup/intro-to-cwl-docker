@@ -1,20 +1,21 @@
 <div class="sponsor-logos">
   <a href="https://www.rd-alliance.org/rda-europe/" title="RDA-EU">
-    <img style="margin-right:50px" alt="RDA-EU" src="static/images/RDA-logo.png" width="120"/>
+    <img style="margin-right:50px" alt="RDA-EU" src="static/images/RDA-logo.png" width="100"/>
   </a>
   <a href="http://inab.certh.gr/" title="INAB-CERTH">
-    <img style="margin-right:50px" alt="INAB-CERTH" src="static/images/INAB-logo.png" width="120"/>
+    <img style="margin-right:50px" alt="INAB-CERTH" src="static/images/INAB-logo.png" width="100"/>
   </a>
   <a href="http://inab.certh.gr/" title="ATHENA RC">
-    <img style="margin-right:50px" alt="ATHENA-RC" src="static/images/ARC-logo.png" width="120"/>
+    <img style="margin-right:50px" alt="ATHENA-RC" src="static/images/ARC-logo.png" width="100"/>
   </a>
   <a href="https://www.elixir-europe.org/" title="ELIXIR">
-    <img style="margin-right:50px" alt="ELIXIR" src="static/images/ELIXIR-logo.png" width="120"/>
+    <img style="margin-right:50px" alt="ELIXIR" src="static/images/ELIXIR-logo.png" width="100"/>
   </a>
 </div>  
 
 ### Overview
-?????
+
+Reproducible research is an important part of good scientific practice. Establishing robust computational analysis workflow facilitates reproducible research. There has been a strong emphasis on establishing graphic workflow management systems, such as Galaxy and Knime. However, the landscape and complexity of Linux command line tools for workflow management is vast and complicated. We aim to take advantage of European/International leaders in the field to present current scientific workflow paradigms and a lead workshops to implement a basic workflow. Topics covered include workflows and containerization.
 
 ### Learning objectives
 
@@ -75,22 +76,27 @@ _Maximum participants_: 25
 
 ## Registration
 
-Dates of the workshop: 30-31/03/2020
-Please register to the workshop using this [form](https://forms.gle/br9JQ1iqbkYmgFQD6). Deadline: Monday 16/03/2020 - Notifications: 18/03/2020
+**Dates of the workshop**: 30-31/03/2020
+
+Please **register** to the workshop using this [**form**](https://forms.gle/br9JQ1iqbkYmgFQD6).
+
+_Deadline_: Mon 16/03/2020
+
+_Notifications_: Wed 18/03/2020
 
 ## Other examples
 
-<tba>
+_< tba >_
 
 ## Sources / References
 
 The material in the workshop has been based on the following resources:
 
-<tba>
+_< tba >_
 
 Relevant literature includes:
 
-<tba>
+_< tba >_
 
 
 ## License
