@@ -1,15 +1,15 @@
 <div class="sponsor-logos">
   <a href="https://www.rd-alliance.org/rda-europe/" title="RDA-EU">
-    <img style="margin-right:50px" alt="RDA-EU" src="static/images/RDA-logo.png" width="100"/>
+    <img style="margin-right:50px" alt="RDA-EU" src="static/images/RDA-EU-logo.png" width="80"/>
   </a>
   <a href="http://inab.certh.gr/" title="INAB-CERTH">
-    <img style="margin-right:50px" alt="INAB-CERTH" src="static/images/INAB-logo.png" width="100"/>
+    <img style="margin-right:50px" alt="INAB-CERTH" src="static/images/INAB-logo.png" width="80"/>
   </a>
   <a href="http://inab.certh.gr/" title="ATHENA RC">
-    <img style="margin-right:50px" alt="ATHENA-RC" src="static/images/ARC-logo.png" width="100"/>
+    <img style="margin-right:50px" alt="ATHENA-RC" src="static/images/ARC-logo.png" width="80"/>
   </a>
   <a href="https://www.elixir-europe.org/" title="ELIXIR">
-    <img style="margin-right:50px" alt="ELIXIR" src="static/images/ELIXIR-logo.png" width="100"/>
+    <img style="margin-right:50px" alt="ELIXIR" src="static/images/ELIXIR-logo.png" width="80"/>
   </a>
 </div>  
 
@@ -104,6 +104,11 @@ _< tba >_
 [![License: CC BY 4.0](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
 
 This material is made available under the [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0). Please see [LICENSE](LICENSE.md) for more details.
+
+## Acknowledgements
+
+This work has been produced with the support of the RDA Europe Ambassador programme. It  has received funding from the European Union’s Horizon 2020 (H2020) research and innovation programme via the RDA EU 4.0 project  (ref. GA no. 777388).
+
 
 ## Citation
 
