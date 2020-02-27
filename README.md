@@ -11,7 +11,7 @@
   <a href="https://www.elixir-europe.org/" title="ELIXIR">
     <img style="margin-right:50px" alt="ELIXIR" src="static/images/ELIXIR-logo.png" width="80"/>
   </a>
-</div>  
+</div>
 
 ### Overview
 
@@ -36,7 +36,7 @@ Reproducible research is an important part of good scientific practice. Establis
 
 ### Audience and requirements
 
-This introductory tutorial is aimed towards bioinformaticians (graduate students and researchers), who are interested in becoming familiar to Docker based workflows in CWL, as is currently supported by the EG-CI infrastructure.
+This introductory tutorial is aimed towards bioinformaticians (graduate students and researchers), who are interested in becoming familiar to Docker based workflows in CWL, as is currently supported by the ΕLIXIR-Greece Compute Infrastructure (EG-CI).
 
 ### Prerequisites
 
@@ -83,6 +83,19 @@ Please **register** to the workshop using this [**form**](https://forms.gle/br9J
 _Deadline_: Mon 16/03/2020
 
 _Notifications_: Wed 18/03/2020
+
+## Venue
+
+National Infrastructures for Research and Technology (GRNET)
+
+Kifisias Avenue 7
+
+115 23, Athens, GR
+
+30-31 March, 2020
+
+
+_For more information, check the GRNET contact page [here](https://grnet.gr/contact-us/)_
 
 ## Other examples
 
