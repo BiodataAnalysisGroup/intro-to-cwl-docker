@@ -76,13 +76,13 @@ _Maximum participants_: 25
 
 ## Registration
 
-**Dates of the workshop**: 30-31/03/2020
+**Dates of the workshop**: ~~30-31/03/2020~~  (**Postponed due to COVID-19**)
 
-Please **register** to the workshop using this [**form**](https://forms.gle/br9JQ1iqbkYmgFQD6).
+~~Please **register** to the workshop using this [**form**](https://forms.gle/br9JQ1iqbkYmgFQD6).~~
 
-_Deadline_: Mon 16/03/2020
+_Deadline_: ~~Mon 16/03/2020~~ (tba)
 
-_Notifications_: Wed 18/03/2020
+_Notifications_: ~~Wed 18/03/2020~~ (tba)
 
 ## Venue
 
