@@ -46,8 +46,6 @@ _Maximum participants_: 25
 
 ### Schedule
 
-#### Day 1
-
 | Time  |  Details |
 |--------|----------|
 | 10:00 - 10:30	| **Tutorial introduction**. <br /> <br /> - Get to know each other. <br /> - Setup <br /> [_Link to material_](episodes/setup.md) |
@@ -57,14 +55,6 @@ _Maximum participants_: 25
 | Part II: Building a Container | |
 | 14:00 - 15:30 | **Building a container image**.<br /><br /> - How to build a container <br /> [_Link to material_](episodes/03-eda-unsupervised-learning.md) |
 | 15:45 - 17:00	| **Distribute online** <br /><br /> - What are the available options (DockerHub, GitHub) <br /> [_Link to material_](episodes/04-supervised-learning.md) |
-| 17:00	| Closing, discussion and feedback|
-
-
-#### Day 2
-
-| Time  |  Details |
-|--------|----------|
-| 09:00 - 09:30	| **Welcome back and Q&A**. <br /> <br /> - Recap of Day 1  <br /> - Setting up for Day 2 <br /> [_Link to material_](episodes/setup.md) |
 | Part I: Basics of Workflow Languages | |
 | 09:30 - 10:45	| **Intro to workflows**. <br /><br /> - Syntax and structure of CWL <br /> [_Link to material_](episodes/01-intro.md)
 | 11:00 - 12:30	| **Writing a CWL in YAML**.<br /><br /> - Examples of tool definitions in CWL <br /> [_Link to material_](episodes/02-bioinformatics-and-ml.md) |
