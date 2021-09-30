@@ -1,8 +1,4 @@
 <div class="sponsor-logos">
-  <a href="https://www.rd-alliance.org/rda-europe/" title="RDA-EU">
-    <img style="margin-right:50px" alt="RDA-EU" src="static/images/RDA-EU-logo.png" width="80"/>
-  </a>
-  &nbsp;
   <a href="http://inab.certh.gr/" title="INAB-CERTH">
     <img style="margin-right:50px" alt="INAB-CERTH" src="static/images/inab.jpg" width="80"/>
   </a>
