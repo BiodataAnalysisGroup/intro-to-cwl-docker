@@ -3,7 +3,7 @@
     <img style="margin-right:50px" alt="INAB-CERTH" src="static/images/inab.jpg" width="80"/>
   </a>
   &nbsp;
-  <a href="http://inab.certh.gr/" title="ATHENA RC">
+  <a href="https://www.athena-innovation.gr/en/home" title="ATHENA RC">
     <img style="margin-right:50px" alt="ATHENA-RC" src="static/images/ARC-logo.png" width="80"/>
   </a>
   &nbsp;
