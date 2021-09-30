@@ -2,12 +2,15 @@
   <a href="https://www.rd-alliance.org/rda-europe/" title="RDA-EU">
     <img style="margin-right:50px" alt="RDA-EU" src="static/images/RDA-EU-logo.png" width="80"/>
   </a>
+  &nbsp;
   <a href="http://inab.certh.gr/" title="INAB-CERTH">
     <img style="margin-right:50px" alt="INAB-CERTH" src="static/images/inab.jpg" width="80"/>
   </a>
+  &nbsp;
   <a href="http://inab.certh.gr/" title="ATHENA RC">
     <img style="margin-right:50px" alt="ATHENA-RC" src="static/images/ARC-logo.png" width="80"/>
   </a>
+  &nbsp;
   <a href="https://www.elixir-europe.org/" title="ELIXIR">
     <img style="margin-right:50px" alt="ELIXIR" src="static/images/ELIXIR-logo.png" width="80"/>
   </a>
