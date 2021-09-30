@@ -63,14 +63,14 @@ _Notifications_: ~~Wed 18/03/2020~~ (tba)
 | 10:30 - 11:30	| **Introduction to Containerization**. <br /><br /> - Concepts and Theory <br /> [_Link to material_](episodes/01-intro.md)
 | 11:45 - 13:00	| **Run a container**.<br /><br /> - Examples of how to run an existing Docker container <br /> [_Link to material_](episodes/02-run-container.md) |
 | Part II: Building a Container | |
-| 14:00 - 15:30 | **Building a container image**.<br /><br /> - How to build a container <br /> [_Link to material_](episodes/03-eda-unsupervised-learning.md) |
-| 15:45 - 17:00	| **Distribute online** <br /><br /> - What are the available options (DockerHub, GitHub) <br /> [_Link to material_](episodes/04-supervised-learning.md) |
-| Part I: Basics of Workflow Languages | |
-| 09:30 - 10:45	| **Intro to workflows**. <br /><br /> - Syntax and structure of CWL <br /> [_Link to material_](episodes/01-intro.md)
-| 11:00 - 12:30	| **Writing a CWL in YAML**.<br /><br /> - Examples of tool definitions in CWL <br /> [_Link to material_](episodes/02-bioinformatics-and-ml.md) |
-| Part II: Hands-on | |
-| 13:30 - 14:45 | **Combining tools in a workflow**.<br /><br /> - Building a complete workflow in CWL <br /> [_Link to material_](episodes/03-eda-unsupervised-learning.md) |
-| 15:00 - 16:30	| **Deploying a tool on EG-CI** <br /><br /> - Using the ELIXIR-GR e-infrastructure? <br /> [_Link to material_](episodes/04-supervised-learning.md) |
+| 14:00 - 15:30 | **Building a container image**.<br /><br /> - How to build a container <br /> [_Link to material_](episodes/03-build-container.md) |
+| 15:45 - 17:00	| **Distribute online** <br /><br /> - What are the available options (DockerHub, GitHub) <br /> [_Link to material_](episodes/04-distribution-options.md) |
+| Part III: Basics of Workflow Languages | |
+| 09:30 - 10:45	| **Intro to workflows**. <br /><br /> - Syntax and structure of CWL <br /> [_Link to material_](episodes/05-cwl-intro.md)
+| 11:00 - 12:30	| **Writing a CWL in YAML**.<br /><br /> - Examples of tool definitions in CWL <br /> [_Link to material_](episodes/06-cwl-basic.md) |
+| Part IV: Hands-on | |
+| 13:30 - 14:45 | **Combining tools in a workflow**.<br /><br /> - Building a complete workflow in CWL <br /> [_Link to material_](episodes/07-cwl-workflow.md) |
+| 15:00 - 16:30	| **Deploying a tool on EG-CI** <br /><br /> - Using the ELIXIR-GR e-infrastructure? <br /> [_Link to material_](episodes/08-cwl-infrastructure.md) |
 | 16:30 - 17:00	| Closing, discussion and Q&A |
 
 ## Venue
@@ -84,7 +84,7 @@ Kifisias Avenue 7
 25 October, 2021
 
 
-_For more information, check the GRNET contact page [here](https://grnet.gr/contact-us/)_
+_For more information, check the GRNET contact page [here](https://grnet.gr/en/contact-us/)_.
 
 ## Other examples
 
