@@ -76,7 +76,7 @@ _Maximum participants_: 25
 
 ## Registration
 
-**Dates of the workshop**: ~~30-31/03/2020~~  (**Postponed due to COVID-19**)
+**Dates of the workshop**: 25/10/2020
 
 ~~Please **register** to the workshop using this [**form**](https://forms.gle/br9JQ1iqbkYmgFQD6).~~
 
@@ -92,7 +92,7 @@ Kifisias Avenue 7
 
 115 23, Athens, GR
 
-30-31 March, 2020
+25 October, 2021
 
 
 _For more information, check the GRNET contact page [here](https://grnet.gr/contact-us/)_
