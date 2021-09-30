@@ -3,7 +3,7 @@
     <img style="margin-right:50px" alt="RDA-EU" src="static/images/RDA-EU-logo.png" width="80"/>
   </a>
   <a href="http://inab.certh.gr/" title="INAB-CERTH">
-    <img style="margin-right:50px" alt="INAB-CERTH" src="static/images/INAB-logo.png" width="80"/>
+    <img style="margin-right:50px" alt="INAB-CERTH" src="static/images/inab.jpg" width="80"/>
   </a>
   <a href="http://inab.certh.gr/" title="ATHENA RC">
     <img style="margin-right:50px" alt="ATHENA-RC" src="static/images/ARC-logo.png" width="80"/>
