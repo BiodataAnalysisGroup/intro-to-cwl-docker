@@ -1,6 +1,6 @@
 [Go to main page](../README.md)
 
-# Tutorial prerequisites
+## Tutorial prerequisites
 
-## Download CWL
+### Download CWL
 TODO: How to download CWL ??
