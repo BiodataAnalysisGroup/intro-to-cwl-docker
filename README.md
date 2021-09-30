@@ -54,7 +54,7 @@ _Maximum participants_: 25
 | 10:00 - 10:30	| **Tutorial introduction**. <br /> <br /> - Get to know each other. <br /> - Setup <br /> [_Link to material_](episodes/setup.md) |
 | Part I: Containers Background | |
 | 10:30 - 11:30	| **Introduction to Containerization**. <br /><br /> - Concepts and Theory <br /> [_Link to material_](episodes/01-intro.md)
-| 11:45 - 13:00	| **Run a container**.<br /><br /> - Examples of how to run an existing Docker container <br /> [_Link to material_](episodes/02-bioinformatics-and-ml.md) |
+| 11:45 - 13:00	| **Run a container**.<br /><br /> - Examples of how to run an existing Docker container <br /> [_Link to material_](episodes/02-run-container.md) |
 | Part II: Building a Container | |
 | 14:00 - 15:30 | **Building a container image**.<br /><br /> - How to build a container <br /> [_Link to material_](episodes/03-eda-unsupervised-learning.md) |
 | 15:45 - 17:00	| **Distribute online** <br /><br /> - What are the available options (DockerHub, GitHub) <br /> [_Link to material_](episodes/04-supervised-learning.md) |
