@@ -12,20 +12,20 @@
   </a>
 </div>
 
-### Overview
+## Overview
 
 Reproducible research is an important part of good scientific practice. Establishing robust computational analysis workflow facilitates reproducible research. There has been a strong emphasis on establishing graphic workflow management systems, such as Galaxy and Knime. However, the landscape and complexity of Linux command line tools for workflow management is vast and complicated. We aim to take advantage of European/International leaders in the field to present current scientific workflow paradigms and a lead workshops to implement a basic workflow. Topics covered include workflows and containerization.
 
-### Learning objectives
+## Learning objectives
 
-#### Docker
+### Docker
 - Understand what containerisation is, and why you might use it in bioinformatics
 - Be familiar with Docker; basic concepts and structure
 - Find and run containers built by other people
 - Build your own application into a container (containerisation)
 - Distribute your container online
 
-#### CWL
+### CWL
 - Understand syntax and structure for CWL
 - Understand how to write CWL tool definitions for command line tools
 - Read and write CWL files written in YAML
@@ -33,18 +33,28 @@ Reproducible research is an important part of good scientific practice. Establis
 - Join CWL tools into a workflow
 - Use Docker with CWL to provide software dependencies and ensure reproducibility
 
-### Audience and requirements
+## Audience and requirements
 
 This introductory tutorial is aimed towards bioinformaticians (graduate students and researchers), who are interested in becoming familiar to Docker based workflows in CWL, as is currently supported by the ΕLIXIR-Greece Compute Infrastructure (EG-CI).
 
-### Prerequisites
+## Prerequisites
 
 - Experience in Shell; this includes basic commands (such as `ls`, `cp`, `mv`, `nano/vim`) and operations such as (`apt`, installing tools etc).
 
 _Maximum participants_: 25
 
+## Registration
 
-### Schedule
+**Dates of the workshop**: 25/10/2020
+
+~~Please **register** to the workshop using this [**form**](https://forms.gle/br9JQ1iqbkYmgFQD6).~~
+
+_Deadline_: ~~Mon 16/03/2020~~ (tba)
+
+_Notifications_: ~~Wed 18/03/2020~~ (tba)
+
+
+## Schedule
 
 | Time  |  Details |
 |--------|----------|
@@ -62,16 +72,6 @@ _Maximum participants_: 25
 | 13:30 - 14:45 | **Combining tools in a workflow**.<br /><br /> - Building a complete workflow in CWL <br /> [_Link to material_](episodes/03-eda-unsupervised-learning.md) |
 | 15:00 - 16:30	| **Deploying a tool on EG-CI** <br /><br /> - Using the ELIXIR-GR e-infrastructure? <br /> [_Link to material_](episodes/04-supervised-learning.md) |
 | 16:30 - 17:00	| Closing, discussion and Q&A |
-
-## Registration
-
-**Dates of the workshop**: 25/10/2020
-
-~~Please **register** to the workshop using this [**form**](https://forms.gle/br9JQ1iqbkYmgFQD6).~~
-
-_Deadline_: ~~Mon 16/03/2020~~ (tba)
-
-_Notifications_: ~~Wed 18/03/2020~~ (tba)
 
 ## Venue
 
