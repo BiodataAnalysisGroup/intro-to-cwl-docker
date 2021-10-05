@@ -86,7 +86,7 @@ Artemidos 6 & Epidavrou
 
 15125, Marousi, GR
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.4446569594406!2d23.800417915741377!3d38.036724279712686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a198deffffffff%3A0x1ce27455f146f478!2sAthena%20Research%20%26%20Innovation%20Center%20in%20Information%20Communication%20%26%20Knowledge%20Technologies!5e0!3m2!1sen!2sgr!4v1633424484248!5m2!1sen!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<a href="https://goo.gl/maps/yK43kCAAvEC5XP9J7" target="_blank"><img src="map-image.png" width="400" /></a>
 
 
 
