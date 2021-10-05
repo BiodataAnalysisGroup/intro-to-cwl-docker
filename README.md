@@ -21,23 +21,23 @@ Reproducible research is an important part of good scientific practice. Establis
 ## Learning objectives
 
 ### Docker
-- Understand what containerisation is, and why you might use it in bioinformatics
-- Be familiar with Docker; basic concepts and structure
-- Find and run containers built by other people
-- Build your own application into a container (containerisation)
-- Distribute your container online
+- Understand what containerisation is, and why you might use it in bioinformatics.
+- Be familiar with Docker; basic concepts and structure.
+- Find and run containers built by other people.
+- Build your own application into a container (containerisation).
+- Distribute your container online.
 
 ### CWL
-- Understand syntax and structure for CWL
-- Understand how to write CWL tool definitions for command line tools
-- Read and write CWL files written in YAML
-- How to run CWL workflows locally and on EG-CI
-- Join CWL tools into a workflow
-- Use Docker with CWL to provide software dependencies and ensure reproducibility
+- Understand syntax and structure for CWL.
+- Understand how to write CWL tool definitions for command line tools.
+- Read and write CWL files written in YAML.
+- How to run CWL workflows locally and on HYPATIA (formerly EG-CI).
+- Join CWL tools into a workflow.
+- Use Docker with CWL to provide software dependencies and ensure reproducibility.
 
 ## Audience and requirements
 
-This introductory tutorial is aimed towards bioinformaticians (graduate students and researchers), who are interested in becoming familiar to Docker based workflows in CWL, as is currently supported by the ΕLIXIR-Greece Compute Infrastructure (EG-CI).
+This introductory tutorial is aimed towards bioinformaticians (graduate students and researchers), who are interested in becoming familiar to Docker based workflows in CWL, as is currently supported by the ΕLIXIR-Greece Compute Infrastructure (HYPATIA).
 
 ## Prerequisites
 
@@ -72,21 +72,26 @@ _Notifications_: ~~Wed 18/03/2020~~ (tba)
 | 11:00 - 12:30	| **Writing a CWL in YAML**.<br /><br /> - Examples of tool definitions in CWL <br /> [_Link to material_](episodes/06-cwl-basic.md) |
 | Part IV: Hands-on | |
 | 13:30 - 14:45 | **Combining tools in a workflow**.<br /><br /> - Building a complete workflow in CWL <br /> [_Link to material_](episodes/07-cwl-workflow.md) |
-| 15:00 - 16:30	| **Deploying a tool on EG-CI** <br /><br /> - Using the ELIXIR-GR e-infrastructure? <br /> [_Link to material_](episodes/08-cwl-infrastructure.md) |
+| 15:00 - 16:30	| **Deploying a tool on HYPATIA** <br /><br /> - Using the ELIXIR-GR e-infrastructure? <br /> [_Link to material_](episodes/08-cwl-infrastructure.md) |
 | 16:30 - 17:00	| Closing, discussion and Q&A |
+
+## Date
+25 October 2021
 
 ## Venue
 
-National Infrastructures for Research and Technology (GRNET)
+"ATHENA" Research Center (ATHENA RC)
 
-Kifisias Avenue 7
+Artemidos 6 & Epidavrou
 
-115 23, Athens, GR
+15125, Marousi, GR
 
-25 October, 2021
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.4446569594406!2d23.800417915741377!3d38.036724279712686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a198deffffffff%3A0x1ce27455f146f478!2sAthena%20Research%20%26%20Innovation%20Center%20in%20Information%20Communication%20%26%20Knowledge%20Technologies!5e0!3m2!1sen!2sgr!4v1633424484248!5m2!1sen!2sgr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
 
-_For more information, check the GRNET contact page [here](https://grnet.gr/en/contact-us/)_.
+
+
+_For more information, check the ATHENA RC contact page [here](https://www.athenarc.gr/en/contact-0)_.
 
 ## Other examples
 
