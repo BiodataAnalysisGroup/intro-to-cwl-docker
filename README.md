@@ -47,13 +47,13 @@ _Maximum participants_: 25
 
 ## Registration
 
-**Dates of the workshop**: 25/10/2020
+**Date of the workshop**: Monday, October 10th 2021
 
-~~Please **register** to the workshop using this [**form**](https://forms.gle/br9JQ1iqbkYmgFQD6).~~
+Please **register** to the workshop using this [**form**](https://forms.gle/br9JQ1iqbkYmgFQD6).
 
-_Deadline_: ~~Mon 16/03/2020~~ (tba)
+_Deadline_: Wed 20/10/2021 12:00 local time
 
-_Notifications_: ~~Wed 18/03/2020~~ (tba)
+_Notifications_: Fri 22/10/2021
 
 
 ## Schedule
