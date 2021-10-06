@@ -43,7 +43,7 @@ This introductory tutorial is aimed towards bioinformaticians (graduate students
 
 - Experience in Shell; this includes basic commands (such as `ls`, `cp`, `mv`, `nano/vim`) and operations such as (`apt`, installing tools etc).
 
-_Maximum participants_: 25
+_Maximum participants_: **15** (will also have live streaming)
 
 ## Registration
 
