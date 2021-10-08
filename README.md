@@ -43,11 +43,13 @@ This introductory tutorial is aimed towards bioinformaticians (graduate students
 
 - Experience in Shell; this includes basic commands (such as `ls`, `cp`, `mv`, `nano/vim`) and operations such as (`apt`, installing tools etc).
 
-_Maximum number of participants_: **15** (will also have live streaming)
+**Given that the workshop will offer hands-on training, participants will need to bring their own laptop with them.**
 
 ### SARS-CoV-2 guidelines
 
 Please note that the venue requires that visitors follow the [EU Digital COVID Certificate scheme](https://ec.europa.eu/info/live-work-travel-eu/coronavirus-response/safe-covid-19-vaccines-europeans/eu-digital-covid-certificate_en) as of the event date. Additional logistical details to help you plan your trip can be found on the event website. Please do not hesitate to get in touch with us if you need further assistance.
+
+_Maximum number of participants_: **15** (will also have live streaming).
 
 ## Registration
 
