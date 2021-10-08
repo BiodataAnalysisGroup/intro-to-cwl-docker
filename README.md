@@ -47,7 +47,7 @@ _Maximum number of participants_: **15** (will also have live streaming)
 
 ### SARS-CoV-2 guidelines
 
-Please note that the venue requires that visitors follow the EU Digital COVID Certificate scheme (https://ec.europa.eu/info/live-work-travel-eu/coronavirus-response/safe-covid-19-vaccines-europeans/eu-digital-covid-certificate_en) as of the event date. Additional logistical details to help you plan your trip can be found on the event website. Please do not hesitate to get in touch with us if you need further assistance.
+Please note that the venue requires that visitors follow the [EU Digital COVID Certificate scheme](https://ec.europa.eu/info/live-work-travel-eu/coronavirus-response/safe-covid-19-vaccines-europeans/eu-digital-covid-certificate_en) as of the event date. Additional logistical details to help you plan your trip can be found on the event website. Please do not hesitate to get in touch with us if you need further assistance.
 
 ## Registration
 
