@@ -1,14 +1,14 @@
-<div class="sponsor-logos">
+<div class="sponsor-logos" style="text-align:center;">
   <a href="http://inab.certh.gr/" title="INAB-CERTH">
-    <img style="margin-right:50px" alt="INAB-CERTH" src="static/images/inab.jpg" width="80"/>
+    <img style="margin-right:50px" alt="INAB-CERTH" src="static/images/inab.jpg" width="15%"/>
   </a>
   &nbsp;
   <a href="https://www.athena-innovation.gr/en/home" title="ATHENA RC">
-    <img style="margin-right:50px" alt="ATHENA-RC" src="static/images/ARC-logo.png" width="80"/>
+    <img style="margin-right:50px" alt="ATHENA-RC" src="static/images/ARC-logo.png" width="15%"/>
   </a>
   &nbsp;
   <a href="https://www.elixir-europe.org/" title="ELIXIR">
-    <img style="margin-right:50px" alt="ELIXIR" src="static/images/ELIXIR-logo.png" width="80"/>
+    <img style="margin-right:50px" alt="ELIXIR" src="static/images/ELIXIR-logo.png" width="15%"/>
   </a>
 </div>
 
@@ -43,11 +43,15 @@ This introductory tutorial is aimed towards bioinformaticians (graduate students
 
 - Experience in Shell; this includes basic commands (such as `ls`, `cp`, `mv`, `nano/vim`) and operations such as (`apt`, installing tools etc).
 
-_Maximum participants_: **15** (will also have live streaming)
+_Maximum number of participants_: **15** (will also have live streaming)
+
+### SARS-CoV-2 guidelines
+
+Please note that the venue requires that visitors follow the EU Digital COVID Certificate scheme (https://ec.europa.eu/info/live-work-travel-eu/coronavirus-response/safe-covid-19-vaccines-europeans/eu-digital-covid-certificate_en) as of the event date. Additional logistical details to help you plan your trip can be found on the event website. Please do not hesitate to get in touch with us if you need further assistance.
 
 ## Registration
 
-**Date of the workshop**: Monday, October 10th 2021
+_Date of the workshop_: ***Monday, October 25th 2021***
 
 Please **register** to the workshop using this [**form**](https://forms.gle/br9JQ1iqbkYmgFQD6).
 
@@ -55,28 +59,23 @@ _Deadline_: Wed 20/10/2021 12:00 local time
 
 _Notifications_: Fri 22/10/2021
 
+_language of conduct_: Greek
 
 ## Schedule
 
 | Time  |  Details |
 |--------|----------|
-| 10:00 - 10:30	| **Tutorial introduction**. <br /> <br /> - Get to know each other. <br /> - Setup <br /> [_Link to material_](episodes/setup.md) |
+| 10:00 - 10:30	| **Tutorial introduction**. <br /> _Link to material_ |
 | Part I: Containers Background | |
-| 10:30 - 11:30	| **Introduction to Containerization**. <br /><br /> - Concepts and Theory <br /> [_Link to material_](episodes/01-intro.md)
-| 11:45 - 13:00	| **Run a container**.<br /><br /> - Examples of how to run an existing Docker container <br /> [_Link to material_](episodes/02-run-container.md) |
+| 10:30 - 11:30	| **Introduction to Containerization, run a container**. <br /> _Link to material_ |
 | Part II: Building a Container | |
-| 14:00 - 15:30 | **Building a container image**.<br /><br /> - How to build a container <br /> [_Link to material_](episodes/03-build-container.md) |
-| 15:45 - 17:00	| **Distribute online** <br /><br /> - What are the available options (DockerHub, GitHub) <br /> [_Link to material_](episodes/04-distribution-options.md) |
-| Part III: Basics of Workflow Languages | |
-| 09:30 - 10:45	| **Intro to workflows**. <br /><br /> - Syntax and structure of CWL <br /> [_Link to material_](episodes/05-cwl-intro.md)
-| 11:00 - 12:30	| **Writing a CWL in YAML**.<br /><br /> - Examples of tool definitions in CWL <br /> [_Link to material_](episodes/06-cwl-basic.md) |
-| Part IV: Hands-on | |
-| 13:30 - 14:45 | **Combining tools in a workflow**.<br /><br /> - Building a complete workflow in CWL <br /> [_Link to material_](episodes/07-cwl-workflow.md) |
-| 15:00 - 16:30	| **Deploying a tool on HYPATIA** <br /><br /> - Using the ELIXIR-GR e-infrastructure? <br /> [_Link to material_](episodes/08-cwl-infrastructure.md) |
-| 16:30 - 17:00	| Closing, discussion and Q&A |
-
-## Date
-25 October 2021
+| 11:45 - 13:15 | **Building a container, distribute online**.<br /> _Link to material_ |
+| Part III: Basics of Workflow Languages - CWL| |
+| 14:00 - 15:30	| **Basics of workflow languages, writing CWL** <br /> _Link to material_ |
+| 15:30 - 16:45	| **Combining tools in a workflow**. <br /> _Link to material_ |
+| Part IV: Introduction to HYPATIA | |
+| 17:00 - 18:15	| **Using HYPATIA**.<br /> _Link to material_ |
+| 18:15 - 18:45 | **Closing, discussion and Q&A**.<br /> _Link to material_ |
 
 ## Venue
 
@@ -86,27 +85,9 @@ Artemidos 6 & Epidavrou
 
 15125, Marousi, GR
 
-<a href="https://goo.gl/maps/yK43kCAAvEC5XP9J7" target="_blank"><img src="map-image.png" width="400" /></a>
-
-
-
+<a href="https://goo.gl/maps/yK43kCAAvEC5XP9J7" target="_blank"><img src="static/images/map-image.png" width="400" /></a>
 
 _For more information, check the ATHENA RC contact page [here](https://www.athenarc.gr/en/contact-0)_.
-
-## Other examples
-
-_< tba >_
-
-## Sources / References
-
-The material in the workshop has been based on the following resources:
-
-_< tba >_
-
-Relevant literature includes:
-
-_< tba >_
-
 
 ## License
 
@@ -116,9 +97,11 @@ This material is made available under the [Creative Commons Attribution 4.0 Inte
 
 ## Acknowledgements
 
-This work has been produced with the support of the RDA Europe Ambassador programme. It  has received funding from the European Union’s Horizon 2020 (H2020) research and innovation programme via the RDA EU 4.0 project  (ref. GA no. 777388).
+We acknowledge support of this work by the project “ELIXIR-GR: Managing and Analysing Life Sciences Data” (MIS: 5002780) which is implemented under the Action “Reinforcement of the Research and Innovation Infrastructure”, funded by the Operational Programme "Competitiveness, Entrepreneurship and Innovation" (NSRF 2014-2020) and co-financed by Greece and the European Union (European Regional Development Fund). 
 
-
-## Citation
-
-_<to be added>_
+<div class="sponsor-logos" style="text-align:center;">
+  <br/>
+  <a title="ELIXIR-GR-fund">
+    <img style="margin-right:50px" alt="ELIXIR-GR-fund" src="static/images/ELIXIR-fund.jpeg" width="75%"/>
+  </a>
+</div>
