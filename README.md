@@ -55,7 +55,7 @@ _Maximum number of participants_: **15** (will also have live streaming).
 
 _Date of the workshop_: ***Monday, October 25th 2021***
 
-Please **register** to the workshop using this [**form**](https://forms.gle/br9JQ1iqbkYmgFQD6).
+~~Please **register** to the workshop using this [**form**](https://forms.gle/br9JQ1iqbkYmgFQD6).~~
 
 _Deadline_: Wed 20/10/2021 12:00 local time
 
@@ -63,21 +63,28 @@ _Notifications_: Fri 22/10/2021
 
 _language of conduct_: Greek
 
+## Instructors
+
+- Kostis Zagganas *IMSI, Athena Research Center*
+- Nikolaos Pechlivanis *INAB, CERTH*
+- Thanasis Vergoulis *IMSI, Athena Research Center*
+- Fotis Psomopoulos *INAB, CERTH*
+
 ## Schedule
 
 | Time  |  Details |
 |--------|----------|
-| 10:00 - 10:30	| **Tutorial introduction**. <br /> _Link to material_ |
+| 10:00 - 10:30	| **Tutorial introduction**. |
 | Part I: Containers Background | |
 | 10:30 - 11:30	| **Introduction to Containerization, run a container**. <br /> _Link to material_ |
 | Part II: Building a Container | |
 | 11:45 - 13:15 | **Building a container, distribute online**.<br /> _Link to material_ |
 | Part III: Basics of Workflow Languages - CWL| |
-| 14:00 - 15:30	| **Basics of workflow languages, writing CWL** <br /> _Link to material_ |
-| 15:30 - 16:45	| **Combining tools in a workflow**. <br /> _Link to material_ |
+| 14:00 - 15:30	| **Basics of workflow languages, writing CWL** <br /> [_What is CWL? First example_](episodes/05-cwl-intro.md)<br/> [_Running Tools Inside Docker_](episodes/06-cwl-containers.md) |
+| 15:30 - 16:45	| **Combining tools in a workflow**. <br /> [_Writing workflows_](episodes/07-writing-workflows.md)<br /> [_Scattering workflows_](episodes/08-scatter-workflows.md) |
 | Part IV: Introduction to HYPATIA | |
 | 17:00 - 18:15	| **Using HYPATIA**.<br /> _Link to material_ |
-| 18:15 - 18:45 | **Closing, discussion and Q&A**.<br /> _Link to material_ |
+| 18:15 - 18:45 | **Closing, discussion and Q&A**. |
 
 ## Venue
 
