@@ -74,17 +74,17 @@ _language of conduct_: Greek
 
 | Time  |  Details |
 |--------|----------|
-| 10:00 - 10:30	| **Tutorial introduction**. |
+| 10:00 - 10:30	| **Tutorial introduction** |
 | Part I: Containers Background | |
-| 10:30 - 11:30	| **Introduction to Containerization, run a container**. <br /> _Link to material_ |
+| 10:30 - 11:30	| **Introduction to Containerization, run a container** |
 | Part II: Building a Container | |
-| 11:45 - 13:15 | **Building a container, distribute online**.<br /> _Link to material_ |
+| 11:45 - 13:15 | **Building a container, distribute online** |
 | Part III: Basics of Workflow Languages - CWL| |
 | 14:00 - 15:30	| **Basics of workflow languages, writing CWL** <br /> [_What is CWL? First example_](episodes/05-cwl-intro.md)<br/> [_Running Tools Inside Docker_](episodes/06-cwl-containers.md) |
-| 15:30 - 16:45	| **Combining tools in a workflow**. <br /> [_Writing workflows_](episodes/07-writing-workflows.md)<br /> [_Scattering workflows_](episodes/08-scatter-workflows.md) |
+| 15:30 - 16:45	| **Combining tools in a workflow** <br /> [_Writing workflows_](episodes/07-writing-workflows.md)<br /> [_Scattering workflows_](episodes/08-scatter-workflows.md) |
 | Part IV: Introduction to HYPATIA | |
-| 17:00 - 18:15	| **Using HYPATIA**.<br /> _Link to material_ |
-| 18:15 - 18:45 | **Closing, discussion and Q&A**. |
+| 17:00 - 18:15	| **Using HYPATIA** |
+| 18:15 - 18:45 | **Closing, discussion and Q&A** |
 
 ## Venue
 

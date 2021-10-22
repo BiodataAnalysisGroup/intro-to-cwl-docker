@@ -14,7 +14,7 @@ The most common reason a new user might want to use scatter is to perform the sa
 different samples. Let's start with a simple workflow that calls our first example and takes
 an array of strings as input to the workflow:
 
-*scatter-workflow.cwl*
+***scatter-workflow.cwl***
 
 ~~~
 {% include cwl/scatter-workflow.cwl %}
@@ -35,7 +35,7 @@ First of all, notice that the main workflow level input here requires an array o
 ~~~
 steps:
   echo:
-    run: 1st-tool.cwl
+    run: echo.cwl
     scatter: message
     in:
       message: message_array
@@ -54,10 +54,10 @@ as well!
 
 Using the following input file:
 
-*scatter.yml*
+***scatter.yml***
 
 ~~~
-{% include cwl/scatter.yml %}
+{% include cwl/scatter-job.yml %}
 ~~~
 {: .source}
 
@@ -100,7 +100,7 @@ You can see that the workflow calls echo multiple times on each element of our
 Let's perform a simple echo like above, but capturing `stdout` by adding the following
 lines instead of `outputs: []`
 
-*1st-tool-mod.cwl*
+***echo-mod.cwl***
 
 ~~~
 outputs:
@@ -109,19 +109,18 @@ outputs:
 ~~~
 {: .source}
 
-And add a second step that uses `wc` to count the characters in each file. See the tool
-below:
+And add a second step that uses `wc` to count the characters in each file. See the tool below:
 
-*wc-tool.cwl*
+***wc.cwl***
 
 ~~~
-{% include cwl/wc-tool.cwl %}
+{% include cwl/wc.cwl %}
 ~~~
 {: .source}
 
 Now, how do we incorporate scatter? Remember the scatter field is under each step:
 
-*scatter-two-steps.cwl*
+***scatter-two-steps.cwl***
 
 ~~~
 {% include cwl/scatter-two-steps.cwl %}
@@ -139,3 +138,13 @@ and that `echo Hallo welt!` takes 5 minutes to perform, and `wc` on that output 
 Even though `echo Hello World!` could finish in 4 minutes, it will actually finish in 8 minutes
 because the first step must wait on `echo Hallo welt!`. You can see how this might not scale
 well. 
+
+## Visualizing CWL
+
+### [CWL viewer](https://view.commonwl.org/) 
+This tool visualises and lists the details of a CWL workflow with its inputs, outputs and steps and packages the files involved into a downloadable Research Object Bundle (zip file with metadata in a manifest), allowing it to be easily viewed and shared.
+
+
+
+### [Rabix](https://rabix.io/) 
+Power tools for the Common Workflow Language

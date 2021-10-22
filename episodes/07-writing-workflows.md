@@ -3,25 +3,38 @@
 
 ## How do I connect tools together into a workflow?
 
-This workflow extracts a java source file from a tar file and then compiles it.
+### Workflow of one step
 
-*1st-workflow.cwl*
+The simplest "hello world" program can be implemented as a workflow. In order to do that, create a file called `echo-workflow.cwl`:
+
+***echo-workflow.cwl***
 
 ~~~
-{% include cwl/1st-workflow.cwl %}
+{% include cwl/echo-workflow.cwl %}
 ~~~
 {: .source}
 
-> ## Visualization of 1st-workflow.cwl
-> <a href="https://view.commonwl.org/workflows/github.com/common-workflow-language/user_guide/blob/gh-pages/_includes/cwl/21-1st-workflow/1st-workflow.cwl"><img src="https://view.commonwl.org/graph/svg/github.com/common-workflow-language/user_guide/blob/gh-pages/_includes/cwl/21-1st-workflow/1st-workflow.cwl" alt="Visualization of 1st-workflow.cwl" /></a>
-{: .callout}
+Now, now by giving as input the `echo-job.yml` file (already created), invoke `cwl-runner` (or `cwltool`) with the workflow `echo-workflow.cwl` and the input object `echo-job.yml` on the command line. The command is  `cwl-runner echo-workflow.cwl echo-job.yml`. The boxed text below shows this command and the expected output.
+
+_NEED TO ADD COMMAND OUTPUT_
+
+### Two steps workflow
+
+This workflow extracts a java source file from a tar file and then compiles it.
+
+***two-step-workflow.cwl***
+
+~~~
+{% include cwl/two-step-workflow.cwl %}
+~~~
+{: .source}
 
 Use a YAML or a JSON object in a separate file to describe the input of a run:
 
-*1st-workflow.yml*
+***two-step-workflow-job.yml***
 
 ~~~
-{% include cwl/1st-workflow.yml %}
+{% include cwl/two-step-workflow-job.yml %}
 ~~~
 {: .source}
 
@@ -30,12 +43,12 @@ command line:
 
 ~~~
 $ echo "public class Hello {}" > Hello.java && tar -cvf hello.tar Hello.java
-$ cwltool 1st-workflow.cwl 1st-workflow.yml
+$ cwltool two-step-workflow.cwl two-step-workflow-job.yml
 [job untar] /tmp/tmp94qFiM$ tar --create --file /home/example/hello.tar Hello.java
 [step untar] completion status is success
 [job compile] /tmp/tmpu1iaKL$ docker run -i --volume=/tmp/tmp94qFiM/Hello.java:/var/lib/cwl/job301600808_tmp94qFiM/Hello.java:ro --volume=/tmp/tmpu1iaKL:/var/spool/cwl:rw --volume=/tmp/tmpfZnNdR:/tmp:rw --workdir=/var/spool/cwl --read-only=true --net=none --user=1001 --rm --env=TMPDIR=/tmp java:7 javac -d /var/spool/cwl /var/lib/cwl/job301600808_tmp94qFiM/Hello.java
 [step compile] completion status is success
-[workflow 1st-workflow.cwl] outdir is /home/example
+[workflow two-step-workflow.cwl] outdir is /home/example
 Final process status is success
 {
   "compiled_class": {

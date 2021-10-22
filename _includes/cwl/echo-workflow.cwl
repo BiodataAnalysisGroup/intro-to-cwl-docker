@@ -3,18 +3,14 @@
 cwlVersion: v1.0
 class: Workflow
 
-requirements:
-  ScatterFeatureRequirement: {}
-
 inputs:
-  message_array: string[] 
+  message: string 
 
 steps:
   echo:
     run: echo.cwl
-    scatter: message
     in:
-      message: message_array
+      message: message
     out: []
 
 outputs: []
