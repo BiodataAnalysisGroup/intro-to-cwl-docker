@@ -1,0 +1,6 @@
+# bwa index input
+InputFile: 
+  class: File
+  format: edam:format_1929  # FASTA
+  path: ../NC_016845.fasta
+IndexName: NC_016845.fasta
