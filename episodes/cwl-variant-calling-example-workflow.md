@@ -1054,10 +1054,10 @@ INFO Final process status is success
 
 ### Resources
 
-Detailed information are available in [CWL workflow documentation](https://www.commonwl.org/v1.2/Workflow.html). Also, CWL User Guide can be very helpful, and, especially for this example, the guide for [Writing Workfloes](https://www.commonwl.org/user_guide/21-1st-workflow/index.html).
+Detailed information are available in [CWL workflow documentation](https://www.commonwl.org/v1.2/Workflow.html). Also, CWL User Guide can be very helpful, and, especially for this example, the guide for [Writing Workflows](https://www.commonwl.org/user_guide/21-1st-workflow/index.html).
 
 Several of the wrappers used in this example were adapted from [bio-cwl-tools](https://github.com/common-workflow-library/bio-cwl-tools).
 
-FASTQ files with raw reads from DNA-Seq were retrieved from [ENA](https://www.ebi.ac.uk/ena/browser/home) (Sample Accession: SAMEA3512096).
+FASTQ files with raw reads (DNA-Seq) were retrieved from [ENA](https://www.ebi.ac.uk/ena/browser/home) (Sample Accession: SAMEA3512096).
 
 Reference genome (FASTA) was retrieved from [NCBI](https://www.ncbi.nlm.nih.gov/) (NCBI Reference Sequence: NC_016845.1).

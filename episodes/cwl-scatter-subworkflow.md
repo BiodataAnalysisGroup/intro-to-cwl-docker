@@ -655,6 +655,6 @@ Detailed information are available in [CWL workflow documentation](https://www.c
 
 The `fastqc_2.cwl` wrapper was adapted from [bio-cwl-tools](https://github.com/common-workflow-library/bio-cwl-tools).
 
-FASTQ files with raw reads from DNA-Seq were retrieved from [ENA](https://www.ebi.ac.uk/ena/browser/home) (Sample Accession: SAMEA3512096).
+FASTQ files with raw reads (DNA-Seq) were retrieved from [ENA](https://www.ebi.ac.uk/ena/browser/home) (Sample Accession: SAMEA3512096).
 
 Reference genome (FASTA) was retrieved from [NCBI](https://www.ncbi.nlm.nih.gov/) (NCBI Reference Sequence: NC_016845.1).
