@@ -1,0 +1,7 @@
+fastqFile_array: [
+  {class: File, path: ../raw_reads/ERR1217015_1.fastq.gz},
+  {class: File, path: ../raw_reads/ERR1217015_2.fastq.gz}
+]
+
+# seqtk gzip inputs
+# seqtk_gzip_outName: ERR1217015_1.fastq

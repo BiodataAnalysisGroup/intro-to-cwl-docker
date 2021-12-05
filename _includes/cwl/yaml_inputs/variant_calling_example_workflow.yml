@@ -1,0 +1,23 @@
+# trim_galore input
+raw_fastq_file_1:
+  class: File
+  path: ../ERR1217015_1.fastq.gz
+raw_fastq_file_2:
+  class: File
+  path: ../ERR1217015_2.fastq.gz
+# bwa mem input
+ref_genome_2nd:
+  class: File
+  path: ../NC_016845.fasta
+  format: edam:format_1929 # FASTA
+# bcftools mpileup input
+ref_genome_3rd:
+    class: File
+    path: ../NC_016845.fasta
+    format: edam:format_1929 # FASTA
+# output_file_type: "u"
+# bcftools call input
+output_file_type_2nd: "v"
+type_of_ploidy: 1
+#type_of_model: "m"
+output_file_name: "ERR1217015_sorted_reads.vcf"

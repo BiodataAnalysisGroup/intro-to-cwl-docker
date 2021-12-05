@@ -167,9 +167,9 @@ Additionaly, the `path` for the FASTA file is set for `InputFile`, while `IndexN
 By invoking `cwl-runner` we can run the tool like this and get the expected output files:
 
 ~~~
-$cwl-runner bio-cwl-tools/BWA-Index.cwl yaml_inputs/BWA-Index.yml
+$cwl-runner cwl_tools/bio-cwl-tools/BWA-Index.cwl yaml_inputs/BWA-Index.yml
 INFO /usr/bin/cwl-runner 3.0.20210124104916
-INFO Resolved 'bio-cwl-tools/BWA-Index.cwl' to 'file:///mnt/c/Users/CWL/20211129/bio-cwl-tools/BWA-Index.cwl'
+INFO Resolved 'cwl_tools/bio-cwl-tools/BWA-Index.cwl' to 'file:///mnt/c/Users/CWL/20211129/cwl_tools/bio-cwl-tools/BWA-Index.cwl'
 INFO [job BWA-Index.cwl] /tmp/wp3q6n0i$ docker \
     run \
     -i \
@@ -348,9 +348,9 @@ sequences:
 ~~~
 
 ~~~
-$cwl-runner bio-cwl-tools/samtools_faidx.cwl yaml_inputs/samtools_faidx.yml
+$cwl-runner cwl_tools/bio-cwl-tools/samtools_faidx.cwl yaml_inputs/samtools_faidx.yml
 INFO /usr/bin/cwl-runner 3.0.20210124104916
-INFO Resolved 'bio-cwl-tools/samtools_faidx.cwl' to 'file:///mnt/c/Users/CWL/20211129/bio-cwl-tools/samtools_faidx.cwl'
+INFO Resolved 'cwl_tools/bio-cwl-tools/samtools_faidx.cwl' to 'file:///mnt/c/Users/CWL/20211129/cwl_tools/bio-cwl-tools/samtools_faidx.cwl'
 INFO [job samtools_faidx.cwl] /tmp/vky2awf3$ docker \
     run \
     -i \
