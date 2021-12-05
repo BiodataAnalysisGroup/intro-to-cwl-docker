@@ -18,7 +18,114 @@ In our example we are executing three command-line tools separately over two dif
 ***seqtk_gzip_fastqc_2.cwl***
 
 ~~~
+#!/usr/bin/env cwl-runner
+cwlVersion: v1.0
+class: Workflow
+
+requirements:
+ ScatterFeatureRequirement: {}
+ SubworkflowFeatureRequirement: {}
+
+inputs:
+  # seqtk input
+  fastqFile_array:
+    type: File[]
+  # # gzip file name output
+  # seqtk_gzip_outName: 
+  #   type: string
+
+steps:
+  subworkflow:
+    run:
+      class: Workflow
+      
+      inputs:
+        fastqFile: 
+          type: File
+      
+      outputs:
+        # seqtk output
+        seqtk_sample_output:
+          type: File
+          outputSource: seqtk_random_selection/seqtk_sample_out
+        # seqtk gzip output
+        seqtk_gzip_output:
+          type: File
+          outputSource: seqtk_gzip_step/gzip_out
+        # output of fastqc step:
+        zipFile:
+          type: File
+          outputSource: fastqc_quality_check/zipped_file
+        htmlFile:
+          type: File
+          outputSource: fastqc_quality_check/html_file
+        summaryFile:
+          type: File
+          outputSource: fastqc_quality_check/summary_file
+
+      steps:
+        # seqtk random subset selection (1%)
+        seqtk_random_selection:
+          run: ../cwl_tools/seqtk.cwl
+          in: 
+            fastq_file: fastqFile
+          out: [seqtk_sample_out]
+        # gzip step for seqtk output
+        seqtk_gzip_step:
+          run: ../cwl_tools/gzip.cwl
+          in: 
+            # outputFileName: seqtk_gzip_outName
+            inputFile: seqtk_random_selection/seqtk_sample_out
+          out: [gzip_out]
+        # fastqc step
+        fastqc_quality_check:
+          run: ../cwl_tools/bio-cwl-tools/fastqc_2.cwl
+          in: 
+            reads_file: seqtk_gzip_step/gzip_out
+          out: [zipped_file, html_file, summary_file]
+
+    scatter: fastqFile
+    in:
+      fastqFile: fastqFile_array
+    out: 
+      - seqtk_sample_output
+      - seqtk_gzip_output
+      - zipFile
+      - htmlFile
+      - summaryFile
+
+outputs:
+  # seqtk output
+  seqtk_sample_output2:
+    type: 
+      type: array
+      items: File
+    outputSource: subworkflow/seqtk_sample_output
+  # seqtk gzip output
+  seqtk_gzip_output2:
+    type: 
+      type: array
+      items: File
+    outputSource: subworkflow/seqtk_gzip_output
+  # output of fastqc step:
+  zipFile2:
+    type: 
+      type: array
+      items: File
+    outputSource: subworkflow/zipFile
+  htmlFile2:
+    type: 
+      type: array
+      items: File
+    outputSource: subworkflow/htmlFile
+  summaryFile2:
+    type: 
+      type: array
+      items: File
+    outputSource: subworkflow/summaryFile
 ~~~
+
+### Writing the workflow
 
 As stated above, we plan on applying multiple steps over different input files separately. So we begin by specifying `ScatterFeatureRequirement` and `SubworkflowFeatureRequirement` in the `requirements` of the workflow:
 
@@ -238,6 +345,8 @@ fastqFile_array: [
   {class: File, path: ../raw_reads/ERR1217015_2.fastq.gz}
 ]
 ~~~
+
+### Executing the workflow
 
 ~~~
 $ cwl-runner cwl_workflows/seqtk_gzip_fastqc_2.cwl yaml_inputs/seqtk_gzip_fastqc_2.yml
@@ -521,6 +630,12 @@ INFO [workflow ] completed success
 INFO Final process status is success
 ~~~
 
-### More resources
+### Resources
 
 Detailed information are available in [CWL workflow documentation](https://www.commonwl.org/v1.2/Workflow.html). Also, CWL User Guide can be very helpful, and, especially for this example, the guides for [Nested](https://www.commonwl.org/user_guide/22-nested-workflows/index.html) and [Scattering Workflows](https://www.commonwl.org/user_guide/23-scatter-workflow/index.html).
+
+The `fastqc_2.cwl` wrapper was adapted from [bio-cwl-tools](https://github.com/common-workflow-library/bio-cwl-tools).
+
+FASTQ files with raw reads from DNA-Seq were retrieved from [ENA](https://www.ebi.ac.uk/ena/browser/home) (Sample Accession: SAMEA3512096).
+
+Reference genome (FASTA) was retrieved from [NCBI](https://www.ncbi.nlm.nih.gov/) (NCBI Reference Sequence: NC_016845.1).

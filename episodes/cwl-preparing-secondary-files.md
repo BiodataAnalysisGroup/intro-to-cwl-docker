@@ -62,6 +62,8 @@ $schemas:
   - http://edamontology.org/EDAM_1.18.owl
 ~~~
 
+### Writing the tools
+
 We specify the version of CWL and that we are running a command-line tool:
 
 ~~~
@@ -404,3 +406,7 @@ $
 $ ls -1 | grep ".fai"
 NC_016845.fasta.fai
 ~~~
+
+### Resources
+
+Reference genome (FASTA) was retrieved from [NCBI](https://www.ncbi.nlm.nih.gov/) (NCBI Reference Sequence: NC_016845.1).

@@ -167,6 +167,8 @@ $schemas:
   - http://edamontology.org/EDAM_1.18.owl
 ~~~
 
+### Writing the workflow
+
 We begin by setting CWL version and specifying that we are writing a workflow:
 
 ~~~
@@ -503,6 +505,8 @@ output_file_name: "ERR1217015_sorted_reads.vcf"
 ~~~
 
 and run the workflow as follows:
+
+### Executing the workflow
 
 ~~~
 cwl-runner cwl_workflows/variant_calling_example_workflow.cwl yaml_inputs/variant_calling_example_workflow.yml
@@ -1047,6 +1051,12 @@ INFO [workflow ] completed success
 INFO Final process status is success
 ~~~
 
-### More resources
+### Resources
 
 Detailed information are available in [CWL workflow documentation](https://www.commonwl.org/v1.2/Workflow.html). Also, CWL User Guide can be very helpful, and, especially for this example, the guide for [Writing Workfloes](https://www.commonwl.org/user_guide/21-1st-workflow/index.html).
+
+Several of the wrappers used in this example were adapted from [bio-cwl-tools](https://github.com/common-workflow-library/bio-cwl-tools).
+
+FASTQ files with raw reads from DNA-Seq were retrieved from [ENA](https://www.ebi.ac.uk/ena/browser/home) (Sample Accession: SAMEA3512096).
+
+Reference genome (FASTA) was retrieved from [NCBI](https://www.ncbi.nlm.nih.gov/) (NCBI Reference Sequence: NC_016845.1).
