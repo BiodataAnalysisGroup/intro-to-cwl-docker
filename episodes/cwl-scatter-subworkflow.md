@@ -283,38 +283,28 @@ outputs:
         }
 ~~~
 
-Having defined the `steps` of our nested workflow, we move on with defining its `outputs`:
+Having set the `steps` of our nested workflow, we move on with defining its `outputs`:
 
 ~~~
 outputs:
-  # seqtk output
-  seqtk_sample_output2:
-    type: 
-      type: array
-      items: File
-    outputSource: subworkflow/seqtk_sample_output
-  # seqtk gzip output
-  seqtk_gzip_output2:
-    type: 
-      type: array
-      items: File
-    outputSource: subworkflow/seqtk_gzip_output
-  # output of fastqc step:
-  zipFile2:
-    type: 
-      type: array
-      items: File
-    outputSource: subworkflow/zipFile
-  htmlFile2:
-    type: 
-      type: array
-      items: File
-    outputSource: subworkflow/htmlFile
-  summaryFile2:
-    type: 
-      type: array
-      items: File
-    outputSource: subworkflow/summaryFile
+# seqtk output
+seqtk_sample_output:
+  type: File
+  outputSource: seqtk_random_selection/seqtk_sample_out
+# seqtk gzip output
+seqtk_gzip_output:
+  type: File
+  outputSource: seqtk_gzip_step/gzip_out
+# output of fastqc step:
+zipFile:
+  type: File
+  outputSource: fastqc_quality_check/zipped_file
+htmlFile:
+  type: File
+  outputSource: fastqc_quality_check/html_file
+summaryFile:
+  type: File
+  outputSource: fastqc_quality_check/summary_file
 ~~~
 
 We set a unique `id` for each output, specify that we are expecting a file (`type: File`) and instruct which output (e.g., `seqtk_sample_out`) is to be expected and from which step (e.g., `seqtk_random_selection`) by using the `outputSource` field (`outputSource: seqtk_random_selection/seqtk_sample_out`).
