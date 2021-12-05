@@ -11,9 +11,9 @@ Therefore, to use `scatter` on steps that can proceed independently of other fil
 ### FASTQ subsetting, compression and quality check 
 
 In our example we are executing three command-line tools separately over two different files in FASTQ format. Our goal is to:
-  1. Extract a fraction (1%) of the original fastq files with seqtk.
-  2. Compress them (as seqtk does not automatically do so).
-  3. Perform quality check on them using fastqc.
+1. Extract a fraction (1%) of the original fastq files with seqtk.
+2. Compress them (as seqtk does not automatically do so).
+3. Perform quality check on them using fastqc.
 
 ***seqtk_gzip_fastqc_2.cwl***
 

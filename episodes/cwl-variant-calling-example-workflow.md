@@ -5,11 +5,11 @@ In this example we create a basic variant calling CWL workflow, which serves as 
 ### Trimming raw reads, mapping and variant calling
 
 In our example we are executing several command-line tools, taking as initial input a random fraction (1%) of two paired-end FASTQ files (DNA-Seq), in order to:
-    1. Perform trimming and quality control of the initial raw reads.
-    2. Map the trimmed reads to a reference genome.
-    3. Convert SAM to BAM format.
-    4. Sort BAM file by coordinates.
-    5. Perform variant calling with bcftools.
+1. Perform trimming and quality control of the initial raw reads.
+2. Map the trimmed reads to a reference genome.
+3. Convert SAM to BAM format.
+4. Sort BAM file by coordinates.
+5. Perform variant calling with bcftools.
 
 ***variant_calling_example_workflow.cwl***
 
@@ -179,9 +179,9 @@ class: Workflow
 The field `inputs` is subsequently filled with the input(s) that the tool of each step will require. The specific values of these inputs will be latter set in the input `YAML file`.
 
 Note the functionality offered by certain fields, including:
-    - `secondaryFile`, that provides a pattern or expression specifying files or directories that should be included alongside the primary file. Secondary files may be required or optional.
-    - `format`, which must be one or more IRIs of concept nodes that represents file formats which are allowed as input to this parameter, preferrably defined within an ontology. If no ontology is available, file formats may be tested by exact match.
-    - `default`, which specifies the default value to use for this parameter if the parameter is missing from the input object, or if the value of the parameter in the input object is *null*. Default values are applied before evaluating expressions.
+- `secondaryFile`, that provides a pattern or expression specifying files or directories that should be included alongside the primary file. Secondary files may be required or optional.
+- `format`, which must be one or more IRIs of concept nodes that represents file formats which are allowed as input to this parameter, preferrably defined within an ontology. If no ontology is available, file formats may be tested by exact match.
+- `default`, which specifies the default value to use for this parameter if the parameter is missing from the input object, or if the value of the parameter in the input object is *null*. Default values are applied before evaluating expressions.
 
 ~~~
 inputs:
@@ -458,13 +458,14 @@ outputs:
 ~~~
 
 Interestingly, we define the `type` of the expected output to be:
-    - a file, `type: File`
-    - or an array of items that are files:
-    ~~~
-    type:
-      type: array
-      items: File
-    ~~~
+- a file, `type: File`
+- or an array of items that are files:
+~~~
+type:
+  type: array
+  items: File
+~~~
+
 With tools like *Trim_galore* where one or more files are expected as input (single- or paired-end file(s)), and thus the respective number of files is produced as output, we can set the an input or an output are optional by adding `?` directly after `type` (e.g., `type: File?`).
 
 Note that again the unique `id` values come into play to connect this time different `steps` and `outputs`. For example the first output that we are trying to capture is the first fastq file that has been trimmed by *Trim_galore*. Therefore, we give a unique `id` to the first output (*fastq_1_trimmed_file*), set that we are expecting a file (`type: File`), and use the field `outputSource` to specify that from the step *trimming_reads* we are capturing the output *fastq1_trimmed* (`outputSource: trimming_reads/fastq1_trimmed`):
