@@ -113,8 +113,8 @@ $schemas:
 With the field `inputBinding` we can add prefixes, like `-p`, and define the order of the arguments, like the `position: 200` which is a simple way to set the input reference genome to be preceded by any other input with lower `position`.
 
 The input *algoType* is a good example of an optional input, for which a value is not necessary to be defined latter in the input `YAML` file. CWL recognizes this if we: 
-    - add `- "null"` to the `type` field as the example, or
-    - add a `?` after the value of `type` (e.g., `type: File?` or `type: string?`)
+- add `- "null"` to the `type` field as the example, or
+- add a `?` after the value of `type` (e.g., `type: File?` or `type: string?`)
 
 ~~~
 #Optional arguments
@@ -144,8 +144,8 @@ outputs:
 ~~~
 
 As with `inputs`, a unique `id` must be specified for each output, which in our case is *index*. Note that we are expecting multiple files as output and, therefore, we have to:
-    - specify the field `type` to be an array of files
-    - use `glob` from the `outputBinding` files to capture multiple files that have the string from the *IndexName* input in their file names.
+- specify the field `type` to be an array of files
+- use `glob` from the `outputBinding` files to capture multiple files that have the string from the *IndexName* input in their file names.
     
 For the latter, we can access directly the *IndexName* string value with `$(inputs.IndexName)`, and specify that we are expecting different extensions by adding `*`.
 
